@@ -1,0 +1,14 @@
+.loader {
+    width: 16rem;
+    height: 2rem;
+    background:
+        linear-gradient(#000 0 0) 0/0% no-repeat #ddd;
+    animation: l1 2s infinite linear;
+    text-align: center;
+}
+
+@keyframes l1 {
+    100% {
+        background-size: 100%
+    }
+}
